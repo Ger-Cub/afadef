@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import { Sparkles, Heart, Scale, Users, ShieldAlert, Award, ArrowRight } from "lucide-react";
-
-const heroImg = "/src/assets/images/hero_afadef_1783663350503.jpg";
-const logoImg = "/src/assets/images/afadef_logo_1783663335338.jpg";
+import heroImg from "../assets/images/hero_afadef_1783663350503.jpg";
+import logoImg from "../assets/images/afadef_logo_1783663335338.jpg";
 
 interface HeroProps {
   onScrollToSection: (sectionId: string) => void;

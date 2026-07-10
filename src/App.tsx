@@ -14,8 +14,7 @@ import Contact from "./components/Contact";
 import { NGO_INFO } from "./data";
 import { Heart, Scale, Users, Mail, Phone, MapPin, ArrowUp, ArrowRight, HeartHandshake } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-
-const logoImg = "/src/assets/images/afadef_logo_1783663335338.jpg";
+import logoImg from "./assets/images/afadef_logo_1783663335338.jpg";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState("accueil");

@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ACHIEVEMENTS } from "../data";
 import { ChevronRight, ChevronLeft, Calendar, UserCheck, Sparkles, AlertCircle } from "lucide-react";
-
-// Asset paths
-const schoolGoma = "/src/assets/images/school_goma_1783663363905.jpg";
-const healthSupport = "/src/assets/images/health_support_1783663376759.jpg";
+import schoolGoma from "../assets/images/school_goma_1783663363905.jpg";
+import healthSupport from "../assets/images/health_support_1783663376759.jpg";
 
 const imageMap: Record<string, string> = {
   school_goma: schoolGoma,

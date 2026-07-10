@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { NGO_INFO } from "../data";
 import { Mail, Phone, MapPin, Send, CheckCircle2, MessageSquare, Clock, Globe, ArrowRight, User } from "lucide-react";
+import LeafletMap from "./LeafletMap";
 
 interface SubmittedMessage {
   id: string;
@@ -93,38 +94,38 @@ export default function Contact() {
     localStorage.removeItem("afadef_sent_messages");
   };
 
-  // Map Landmarks in Goma (Himbi 1)
+  // Map Landmarks in Goma (Himbi 1) with real coordinates
   const mapLandmarks = [
     {
       id: "hq",
       name: "Siège Social AFADEF",
       desc: "N°125A, Avenue Présidentielle, Himbi 1. Bureaux administratifs et pôle juridique.",
-      x: 35, // Percentage-based coordinates for our custom vector map
-      y: 45,
+      lat: -1.6775,
+      lng: 29.2155,
       color: "bg-brand-purple"
     },
     {
       id: "school",
       name: "EP Himbi",
       desc: "Infrastructures scolaires réhabilitées par l'AFADEF.",
-      x: 65,
-      y: 25,
+      lat: -1.6745,
+      lng: 29.2190,
       color: "bg-brand-green"
     },
     {
       id: "clinic",
       name: "Centre d'Écoute & d'Orientation",
       desc: "Prise en charge psychologique des survivantes.",
-      x: 20,
-      y: 70,
+      lat: -1.6790,
+      lng: 29.2110,
       color: "bg-red-500"
     },
     {
       id: "prison",
       name: "Prison Centrale de Munzenze",
       desc: "Lieu de notre monitoring carcéral régulier (plaidoyers & kits de dignité).",
-      x: 80,
-      y: 60,
+      lat: -1.6690,
+      lng: 29.2310,
       color: "bg-amber-500"
     }
   ];
@@ -212,68 +213,27 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Custom Interactive Vector Map of Goma (Himbi 1) & Kivu Border */}
+            {/* Real Interactive Leaflet Map of Goma (Himbi 1) */}
             <div className="bg-slate-50 border border-slate-100 rounded-3xl p-5 relative overflow-hidden shadow-inner">
               <div className="flex justify-between items-center mb-3">
                 <div className="flex items-center space-x-2">
                   <Globe className="w-4 h-4 text-brand-purple" />
                   <span className="text-xs font-black text-brand-purple font-mono uppercase tracking-widest">
-                    Carte interactive Goma (Himbi)
+                    Carte réelle interactive (Goma)
                   </span>
                 </div>
                 <span className="text-[9px] bg-emerald-100 text-brand-green font-bold font-mono uppercase px-2 py-0.5 rounded">
-                  Live Vector
+                  OpenStreetMap
                 </span>
               </div>
 
-              {/* Graphical Canvas showing Lake Kivu, Presidentielle Avenue, and pins */}
-              <div className="relative w-full h-[220px] bg-slate-200 rounded-2xl border border-slate-300 overflow-hidden shadow-inner">
-                {/* Lake Kivu representation (Blue water area in bottom left) */}
-                <div className="absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-t from-sky-400 to-sky-300 rounded-t-[100px] border-t-2 border-sky-500 opacity-60" />
-                
-                {/* Lake label */}
-                <span className="absolute bottom-4 left-6 text-[9px] font-bold text-sky-800 uppercase tracking-widest font-mono opacity-80 rotate-[-4deg]">
-                  🌊 Lac Kivu
-                </span>
-
-                {/* Presidentielle Avenue (Main road drawing) */}
-                <div className="absolute top-1/2 left-0 right-0 h-4 bg-slate-700/10 -translate-y-1/2 transform skew-y-[-6deg]" />
-                <div className="absolute top-1/2 left-0 right-0 h-0.5 border-t border-dashed border-white/60 -translate-y-1/2 transform skew-y-[-6deg]" />
-                <span className="absolute top-[42%] left-[45%] text-[8px] font-black text-slate-800/50 uppercase tracking-widest font-mono rotate-[-6deg]">
-                  Avenue Présidentielle
-                </span>
-
-                {/* Grid Lines background */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]" />
-
-                {/* Landmarks Pins */}
-                {mapLandmarks.map((pin) => (
-                  <button
-                    key={pin.id}
-                    onClick={() => setActivePin(pin.id)}
-                    style={{ left: `${pin.x}%`, top: `${pin.y}%` }}
-                    className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
-                  >
-                    {/* Ring animation */}
-                    <span className={`absolute inline-flex h-6 w-6 rounded-full opacity-75 animate-ping -left-1 -top-1 ${
-                      activePin === pin.id ? "bg-brand-purple/40" : "bg-slate-400/20"
-                    }`} />
-                    
-                    {/* Pin element */}
-                    <div className={`w-4.5 h-4.5 rounded-full flex items-center justify-center border border-white text-white shadow-md transition-all ${
-                      pin.color
-                    } ${
-                      activePin === pin.id ? "scale-125 ring-2 ring-white" : "hover:scale-115 opacity-80"
-                    }`}>
-                      <MapPin className="w-2.5 h-2.5" />
-                    </div>
-
-                    {/* Simple Tooltip on hover */}
-                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-[9px] rounded px-2 py-1 w-32 text-center shadow-lg font-medium leading-tight">
-                      {pin.name}
-                    </div>
-                  </button>
-                ))}
+              {/* Leaflet map container */}
+              <div className="relative w-full rounded-2xl border border-slate-300 overflow-hidden shadow-inner bg-slate-100">
+                <LeafletMap 
+                  activePin={activePin} 
+                  onActivePinChange={setActivePin} 
+                  landmarks={mapLandmarks} 
+                />
               </div>
 
               {/* Landmark description card on click */}

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Shield, Phone } from "lucide-react";
-
-const logoImg = "/src/assets/images/afadef_logo_1783663335338.jpg";
+import logoImg from "../assets/images/afadef_logo_1783663335338.jpg";
 
 interface NavbarProps {
   onScrollToSection: (sectionId: string) => void;

@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { GALLERY_ITEMS } from "../data";
 import { X, ZoomIn, Eye, Grid } from "lucide-react";
-
-// Asset paths
-const schoolGoma = "/src/assets/images/school_goma_1783663363905.jpg";
-const healthSupport = "/src/assets/images/health_support_1783663376759.jpg";
-const heroAfadef = "/src/assets/images/hero_afadef_1783663350503.jpg";
+import schoolGoma from "../assets/images/school_goma_1783663363905.jpg";
+import healthSupport from "../assets/images/health_support_1783663376759.jpg";
+import heroAfadef from "../assets/images/hero_afadef_1783663350503.jpg";
 
 const galleryImageMap: Record<string, string> = {
   school_goma: schoolGoma,

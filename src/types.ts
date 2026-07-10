@@ -37,3 +37,4 @@ export interface GalleryItem {
   image: string;
   caption: string;
 }
+
