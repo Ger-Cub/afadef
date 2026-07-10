@@ -231,13 +231,13 @@ export const TEAM_MEMBERS = [
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400"
   },
   {
-    name: "Jean-Bosco Mumbere",
+    name: "Jean-Bosco Mumbere Gerardo",
     role: "Coordonnateur du Comité de Gestion",
     bio: "Spécialiste de la gestion de projets humanitaires, il assure la mise en œuvre rigoureuse de nos programmes d'action.",
     avatar: "https://firebasestorage.googleapis.com/v0/b/static-concept-220701.appspot.com/o/uploads%2F6956f3bd6fe2b976e5d5367b%2Fprofile%2F1767813235598.jpg?alt=media&token=259e36e4-2ee4-411a-8e68-505dd24e1ba5"
   },
   {
-    name: "Dr. Aline Kavira",
+    name: "Dr. Aline Kavira Annie",
     role: "Responsable du Pôle Santé & Psycho",
     bio: "Psychologue clinicienne dévouée à la prise en charge des traumatismes et à la réhabilitation des survivantes.",
     avatar: "https://tabassam-vijijini.org/assets/images/equipe/safi_annie.jpg"
