@@ -1,0 +1,6 @@
+{
+  "name": "AFADEF",
+  "description": "Landing page de l'Association des Femmes pour l’Appui et le Développement des Familles (AFADEF) à Goma, Nord-Kivu, RDC. Santé, Justice et développement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
