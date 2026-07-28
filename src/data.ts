@@ -145,7 +145,7 @@ export const ACHIEVEMENTS: AchievementItem[] = [
     title: "Réhabilitation et Équipement de l'EP Himbi",
     category: "Infrastructures & Éducation",
     description: "Restauration complète de 6 salles de classe détériorées, installation de tableaux modernes et distribution de 120 bancs d'école pour permettre à plus de 300 enfants de Goma d'étudier dans des conditions dignes.",
-    image: "school_goma", // We will map this key to the generated asset path
+    image: "https://www.shutterstock.com/image-photo/real-photo-happy-black-african-260nw-2632731283.jpg", // We will map this key to the generated asset path
     date: "Mars 2026",
     impact: "300+ élèves bénéficiaires directs"
   },
@@ -183,7 +183,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "gal-1",
     title: "Réhabilitation de l'EP Himbi",
     category: "Infrastructures",
-    image: "school_goma",
+    image: "https://www.shutterstock.com/image-photo/real-photo-happy-black-african-260nw-2632731283.jpg",
     caption: "Travaux de peinture et finition des nouvelles classes financées par l'AFADEF."
   },
   {
@@ -197,21 +197,21 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "gal-3",
     title: "Sensibilisation Communautaire",
     category: "Social",
-    image: "https://picsum.photos/seed/community/800/600",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqoG87wgIn2EuxqIbYMXVqX3w4BDfWx3moM9Z5QWSh5Q&s=10",
     caption: "Mobilisation des communautés de Goma sur la prévention des violences de genre."
   },
   {
     id: "gal-4",
     title: "Atelier de Formation Professionnelle",
     category: "Éducation",
-    image: "https://picsum.photos/seed/workshop/800/600",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3nLlkvbAlw1Y3SKdGVu1cD2KLaMy_ocnG6yeeIbiuLQ&s=10",
     caption: "Apprentissage de la couture et de la gestion de micro-commerces pour les jeunes femmes."
   },
   {
     id: "gal-5",
     title: "Monitoring de la Prison de Goma",
     category: "Protection",
-    image: "https://picsum.photos/seed/justice/800/600",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27kqFH1iCIHc2ruF7kdlxqH6qffSNJZlekdTF0rdV_WH5PUg7o8PfSCRe&s=10",
     caption: "Distribution de vivres et évaluation des conditions sanitaires en milieu carcéral."
   },
   {
