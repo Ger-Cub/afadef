@@ -1,4 +1,7 @@
 import { InterventionDomain, ValueItem, StructureOrg, AchievementItem, GalleryItem } from "./types";
+import avatarJulienne from "./assets/images/afadef_team_julienne.jpeg";
+import avatarJeanBosco from "./assets/images/afadef_team1.jpeg";
+import avatarChristian from "./assets/images/afadef_team2.jpeg";
 
 export const NGO_INFO = {
   name: "AFADEF",
@@ -228,13 +231,13 @@ export const TEAM_MEMBERS = [
     name: "Julienne",
     role: "Présidente du Conseil d'Administration",
     bio: "Militante des droits des femmes depuis plus de 15 ans au Nord-Kivu, elle insuffle la vision stratégique d'AFADEF.",
-    avatar: "./assets/images/afadef_team_julienne.jpeg"
+    avatar: avatarJulienne
   },
   {
     name: "Jean-Bosco Mumbere",
     role: "Coordonnateur du Comité de Gestion",
     bio: "Spécialiste de la gestion de projets humanitaires, il assure la mise en œuvre rigoureuse de nos programmes d'action.",
-    avatar: "./assets/images/afadef_team_1.jpeg"
+    avatar: avatarJeanBosco
   },
   {
     name: "Dr. Aline Kavira Annie",
@@ -246,6 +249,6 @@ export const TEAM_MEMBERS = [
     name: "Me. Christian Sawasawa",
     role: "Conseiller Juridique et Plaidoyer",
     bio: "Avocat au barreau du Nord-Kivu, il coordonne le monitoring carcéral et la défense des victimes de violences.",
-    avatar: "./assets/images/afadef_team_2.jpeg"
+    avatar: avatarChristian
   }
 ];
