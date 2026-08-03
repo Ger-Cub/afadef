@@ -69,6 +69,22 @@ li {
   font-size: 0.7rem !important;
 }
 
+#navbar-main .text-xs {
+  font-size: 0.75rem !important;
+}
+
+#navbar-main .text-sm {
+  font-size: 0.875rem !important;
+}
+
+#navbar-main .text-base {
+  font-size: 1rem !important;
+}
+
+#navbar-main .text-\[9px\] {
+  font-size: 9px !important;
+}
+
 /* Custom scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
