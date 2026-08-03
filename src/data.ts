@@ -162,7 +162,7 @@ export const ACHIEVEMENTS: AchievementItem[] = [
     description: "Mise en place d'un centre d'écoute d'urgence offrant un accompagnement psychologique à 10 survivantes de violences, couplé à un appui juridique et judiciaire gratuit.",
     image: "health_support", // Map to generated asset
     date: "Janvier - Mai 2026",
-    impact: "150 survivantes accompagnées et réintégrées"
+    impact: "50 survivantes accompagnées et réintégrées"
   },
   {
     id: "ach-3",
