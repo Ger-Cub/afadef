@@ -159,7 +159,7 @@ export const ACHIEVEMENTS: AchievementItem[] = [
     id: "ach-2",
     title: "Mise en place d'une cellule d'écoute",
     category: "Santé & Juridique",
-    description: "Mise en place d'une cellule d'écoute d'urgence offrant un accompagnement psychologique et psychiatrique à 150 survivantes de violences, couplé à un appui juridique et judiciaire gratuit devant les tribunaux de Goma.",
+    description: "Mise en place d'une cellule d'écoute d'urgence offrant un accompagnement psychologique à 10 survivantes de violences, couplé à un appui juridique et judiciaire gratuit.",
     image: "health_support", // Map to generated asset
     date: "Janvier - Mai 2026",
     impact: "150 survivantes accompagnées et réintégrées"
