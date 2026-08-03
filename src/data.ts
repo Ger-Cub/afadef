@@ -98,7 +98,7 @@ export const INTERVENTIONS: InterventionDomain[] = [
     description: "La santé physique et mentale est le premier pilier du bien-être des familles. Nous apportons une assistance globale aux personnes affectées.",
     details: [
       "Assurer la prise en charge Psychologique des personnes survivante(e)s des violences sexuelles ainsi que celles victimes de toutes autres sortes des violences humaines.",
-      "Assurer la prévention et la prise en charge médicale des personnes malades au sein de la communauté."
+      "Assurer la prévention et la prise en charge médicale des personnes vulnérables au sein de la communauté."
     ]
   },
   {
