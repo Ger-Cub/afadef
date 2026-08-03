@@ -245,7 +245,7 @@ export const TEAM_MEMBERS = [
   {
     name: "Annie SAFI",
     role: "",
-    bio: "Psychologue clinicienne dévouée à la prise en charge des traumatismes et à la réhabilitation des survivantes.",
+    bio: "Pour moi, mets psychologue clinicienne avec expérience dans la gestion de projets humanitaires en contexte de crise (RDC et RCA)",
     avatar: avatarAnnie
   },
   {
