@@ -128,7 +128,7 @@ export const INTERVENTIONS: InterventionDomain[] = [
     description: "La justice sociale et la protection des droits humains sont indispensables pour instaurer la paix et l'égalité des genres.",
     details: [
       "Assurer la prise en charge Juridique et judiciaire gratuite des survivant(e)s des violences sexuelles.",
-      "Promouvoir et défendre activement les droits fondamentaux des femmes et des enfants au Nord-Kivu.",
+      "Promouvoir et défendre activement les droits fondamentaux des femmes et des enfants en RDCvu.",
       "Défendre et promouvoir l’amélioration des conditions légales de détention des détenues et prisonniers en milieux carcéraux à travers le monitoring régulier des cachots et des prisons."
     ]
   },
