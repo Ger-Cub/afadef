@@ -187,7 +187,7 @@ export const ACHIEVEMENTS: AchievementItem[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "gal-1",
-    title: "Réhabilitation de l'EP Himbi",
+    title: "Réhabilitation des écoles",
     category: "Infrastructures",
     image: "https://www.shutterstock.com/image-photo/real-photo-happy-black-african-260nw-2632731283.jpg",
     caption: "Travaux de peinture et finition des nouvelles classes financées par l'AFADEF."
@@ -215,7 +215,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "gal-5",
-    title: "Monitoring de la Prison de Goma",
+    title: "Monitoring de la Prison",
     category: "Protection",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27kqFH1iCIHc2ruF7kdlxqH6qffSNJZlekdTF0rdV_WH5PUg7o8PfSCRe&s=10",
     caption: "Distribution de vivres et évaluation des conditions sanitaires en milieu carcéral."
