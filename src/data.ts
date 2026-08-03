@@ -232,31 +232,31 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 export const TEAM_MEMBERS = [
   {
     name: "Julienne KAMOKEYA",
-    role: "Alternante de la Coordination Générale",
+    role: "",
     bio: "Expertise en analyse des dynamiques sociales, communication et médiation, avec un fort engagement pour le développement communautaire et la protection des groupes vulnérables. Polyvalente, elle est apte à intervenir dans la recherche, la gestion de projets, l’éducation et la protection sociale.",
     avatar: avatarJulienne
   },
   {
     name: "Célestin AKEMANI",
-    role: "Coordinateur Général",
+    role: "",
     bio: "Ingénieur informatique, il est passionné par la technologie et la communication digitale pour le développement. Il est également un fervent défenseur des droits humains et de l'égalité des genres.",
     avatar: avatarJeanBosco
   },
   {
     name: "Annie SAFI",
-    role: "Responsable du Pôle Santé & Psycho",
+    role: "",
     bio: "Psychologue clinicienne dévouée à la prise en charge des traumatismes et à la réhabilitation des survivantes.",
     avatar: avatarAnnie
   },
   {
     name: "Dieudonné MOPEPE",
-    role: "IT & Communication",
+    role: "",
     bio: "Licencié en Administration Et Réseau Informatique, il est passionné par la technologie et la communication digitale pour le développement.",
     avatar: avatarChristian
   },
   {
-    name: "Ingas KAMBALE",
-    role: "Conseiller Juridique et Plaidoyer",
+    name: "Ingels KAMBALE",
+    role: "",
     bio: "Médecin, 13+ ans d'expérience en santé humanitaire en Afrique : coordination de programmes, épidémies, management d'équipes.",
     avatar: avatarIngels
   }
