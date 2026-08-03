@@ -1,7 +1,10 @@
 import { InterventionDomain, ValueItem, StructureOrg, AchievementItem, GalleryItem } from "./types";
 import avatarJulienne from "./assets/images/afadef_team_julienne.jpeg";
 import avatarJeanBosco from "./assets/images/afadef_team1.jpeg";
-import avatarChristian from "./assets/images/afadef_team2.jpeg";
+import avatarChristian from "./assets/images/afadef_team2.png";
+import avatarIngels from "./assets/images/afadef_team3_Ingels.jpeg"
+import avatarAnnie from "./assets/images/afadef_team4_Annie.jpg"
+
 
 export const NGO_INFO = {
   name: "AFADEF",
@@ -228,27 +231,34 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
 export const TEAM_MEMBERS = [
   {
-    name: "Julienne",
-    role: "Présidente du Conseil d'Administration",
-    bio: "Militante des droits des femmes depuis plus de 15 ans au Nord-Kivu, elle insuffle la vision stratégique d'AFADEF.",
+    name: "Julienne KAMOKEYA",
+    role: "Alternante de la Coordination Générale",
+    bio: "Expertise en analyse des dynamiques sociales, communication et médiation, avec un fort engagement pour le développement communautaire et la protection des groupes vulnérables. Polyvalente, elle est apte à intervenir dans la recherche, la gestion de projets, l’éducation et la protection sociale.",
     avatar: avatarJulienne
   },
   {
-    name: "Jean-Bosco Mumbere",
-    role: "Coordonnateur du Comité de Gestion",
-    bio: "Spécialiste de la gestion de projets humanitaires, il assure la mise en œuvre rigoureuse de nos programmes d'action.",
+    name: "Célestin AKEMANI",
+    role: "Coordinateur Général",
+    bio: "Ingénieur informatique, il est passionné par la technologie et la communication digitale pour le développement. Il est également un fervent défenseur des droits humains et de l'égalité des genres.",
     avatar: avatarJeanBosco
   },
   {
-    name: "Dr. Aline Kavira Annie",
+    name: "Annie SAFI",
     role: "Responsable du Pôle Santé & Psycho",
     bio: "Psychologue clinicienne dévouée à la prise en charge des traumatismes et à la réhabilitation des survivantes.",
-    avatar: "https://tabassam-vijijini.org/assets/images/equipe/safi_annie.jpg"
+    avatar: avatarAnnie
   },
   {
-    name: "Me. Christian Sawasawa",
-    role: "Conseiller Juridique et Plaidoyer",
-    bio: "Avocat au barreau du Nord-Kivu, il coordonne le monitoring carcéral et la défense des victimes de violences.",
+    name: "Dieudonné MOPEPE",
+    role: "IT & Communication",
+    bio: "Licencié en Administration Et Réseau Informatique, il est passionné par la technologie et la communication digitale pour le développement.",
     avatar: avatarChristian
+  },
+  {
+    name: "Ingas KAMBALE",
+    role: "Conseiller Juridique et Plaidoyer",
+    bio: "Médecin, 13+ ans d'expérience en santé humanitaire en Afrique : coordination de programmes, épidémies, management d'équipes.",
+    avatar: avatarIngels
   }
 ];
+
