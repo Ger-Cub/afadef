@@ -279,7 +279,7 @@ export default function Contact() {
                       required
                       value={formData.name}
                       onChange={handleInputChange}
-                      placeholder="Ex: Gérard Cubaka"
+                      placeholder="Ex: Amani Baraka"
                       className="w-full text-xs sm:text-sm px-4 py-3 border border-slate-200/80 rounded-xl bg-white text-gray-800 focus:ring-1 focus:ring-brand-purple outline-none"
                     />
                   </div>
