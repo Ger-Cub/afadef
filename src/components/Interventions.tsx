@@ -177,7 +177,7 @@ export default function Interventions() {
                     <div className="pt-6 mt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                       <div className="text-left">
                         <span className="block text-[10px] text-gray-400 font-bold uppercase tracking-wider font-mono">LOCALISATION CONCERNÉE</span>
-                        <span className="text-xs font-semibold text-slate-700">Territoire de Goma & zones d'influence du Nord-Kivu</span>
+                        <span className="text-xs font-semibold text-slate-700">République Démocratique du Congo</span>
                       </div>
                       <a
                         href="#contact"
