@@ -162,16 +162,16 @@ export const ACHIEVEMENTS: AchievementItem[] = [
     description: "Mise en place d'un centre d'écoute d'urgence offrant un accompagnement psychologique à 10 survivantes de violences, couplé à un appui juridique et judiciaire gratuit.",
     image: "health_support", // Map to generated asset
     date: "Janvier - Mai 2026",
-    impact: "50 survivantes accompagnées et réintégrées"
+    impact: "Survivantes accompagnées et réintégrées"
   },
   {
     id: "ach-3",
     title: "Monitoring Carcéral et Kit de Dignité",
     category: "Protection & Droits",
-    description: "Visites de monitoring régulières à la prison centrale de Munzenze et dans les cachots de Goma. Distribution de kits d'hygiène intime aux femmes détenues et plaidoyer réussi pour l'accélération des dossiers de 40 prisonnières en détention préventive prolongée.",
+    description: "Visites de monitoring régulières dans des prisons. Distribution de kits d'hygiène intime aux femmes détenues et plaidoyer réussi pour l'accélération des dossiers de prisonnières en détention préventive prolongée.",
     image: "prison_support", // We can use picsum or elegant vector fallback
     date: "En cours (2026)",
-    impact: "40 détenues libérées ou jugées, 200 kits hygiéniques distribués"
+    impact: "Détenues libérées ou jugées, 200 kits hygiéniques distribués"
   },
   {
     id: "ach-4",
@@ -180,7 +180,7 @@ export const ACHIEVEMENTS: AchievementItem[] = [
     description: "Lancement d'une association villageoise d'épargne et de crédit (AVEC) pour 80 femmes chefs de ménages déplacées à Goma. Formation en gestion financière et octroi de micro-subventions pour la création d'activités génératrices de revenus.",
     image: "microcredit", // Fallback / picsum
     date: "Février 2026",
-    impact: "80 micro-entreprises lancées, stabilité de 80 foyers"
+    impact: "Micro-entreprises lancées, stabilité de 80 foyers"
   }
 ];
 
