@@ -54,7 +54,7 @@ export default function Gallery() {
             className="w-16 h-1 bg-brand-purple mx-auto rounded-full mt-2"
           />
           <p className="text-gray-500 text-sm max-w-md mx-auto pt-2">
-            Des clichés authentiques pris lors de nos interventions, réunions communautaires et chantiers de réhabilitation dans le Nord-Kivu.
+            Des clichés authentiques pris lors de nos interventions, réunions communautaires et chantiers de réhabilitation en RDC.
           </p>
         </div>
 

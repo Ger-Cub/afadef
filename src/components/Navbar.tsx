@@ -70,7 +70,7 @@ export default function Navbar({ onScrollToSection, activeSection }: NavbarProps
               <p className={`text-[9px] font-medium tracking-widest uppercase -mt-1 font-mono transition-colors duration-300 ${
                 isScrolled ? "text-brand-green" : "text-emerald-300"
               }`}>
-                Nord-Kivu • RDC
+                RDC
               </p>
             </div>
           </div>

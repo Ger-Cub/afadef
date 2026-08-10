@@ -64,7 +64,7 @@ export default function About() {
               "{NGO_INFO.mission}"
             </p>
             <p className="text-gray-500 text-sm mt-4">
-              Nous intervenons directement auprès des populations en détresse à Goma, en apportant une assistance pratique, médicale, psychologique et spirituelle.
+              Nous intervenons directement auprès des populations en détresse en RDC, en apportant une assistance pratique, médicale, psychologique et spirituelle.
             </p>
           </motion.div>
 
@@ -183,7 +183,7 @@ export default function About() {
         <div>
           <div className="text-center mb-12">
             <h3 className="font-display font-extrabold text-2xl text-gray-900">Notre Équipe Dirigeante</h3>
-            <p className="text-gray-500 text-sm mt-2 max-w-lg mx-auto">Des femmes et des hommes d'action dévoués à la transformation sociale dans la province du Nord-Kivu.</p>
+            <p className="text-gray-500 text-sm mt-2 max-w-lg mx-auto">Des femmes et des hommes d'action dévoués à la transformation sociale à travers la RDC.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

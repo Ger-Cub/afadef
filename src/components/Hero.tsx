@@ -51,7 +51,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             >
               <Sparkles className="w-4.5 h-4.5 text-yellow-300 animate-pulse" />
               <span className="text-white text-xs font-bold tracking-widest uppercase font-mono">
-                ONG humanitaire • Goma, RDC
+                ONG humanitaire • RDC
               </span>
             </motion.div>
 
@@ -73,7 +73,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-gray-200 text-base sm:text-lg md:text-xl max-w-xl leading-relaxed"
             >
-              L'<strong>AFADEF</strong> est dédiée à contribuer au soulagement de la souffrance des populations vulnérables et à promouvoir un développement inclusif à Goma et dans tout le Nord-Kivu.
+              L'<strong>AFADEF</strong> est dédiée à contribuer au soulagement de la souffrance des populations vulnérables et à promouvoir un développement inclusif à travers toute la RDC.
             </motion.p>
 
             {/* Devise Cards */}
@@ -175,7 +175,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
                   <img src={logoImg} className="w-7 h-7 rounded-full border object-cover" alt="logo" referrerPolicy="no-referrer" />
                   <div className="text-left">
                     <h3 className="font-display font-black text-xs text-brand-purple leading-none">AFADEF</h3>
-                    <span className="text-[7px] text-brand-green font-bold font-mono tracking-wide">GOMA - RDC</span>
+                    <span className="text-[7px] text-brand-green font-bold font-mono tracking-wide">RDC</span>
                   </div>
                 </div>
 

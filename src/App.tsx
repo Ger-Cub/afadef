@@ -112,13 +112,13 @@ export default function App() {
                     AFADEF
                   </span>
                   <p className="text-[9px] font-semibold tracking-wider text-emerald-400 uppercase font-mono">
-                    Goma • Province du Nord-Kivu • RDC
+                    RDC
                   </p>
                 </div>
               </div>
 
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-light max-w-sm">
-                L'<strong>Association des Femmes pour l’Appui et le Développement des Familles</strong> est une organisation non-gouvernementale congolaise engagée pour la santé, la justice et le développement des foyers au Nord-Kivu.
+                L'<strong>Association des Femmes pour l’Appui et le Développement des Familles</strong> est une organisation non-gouvernementale congolaise engagée pour la santé, la justice et le développement des foyers en RDC.
               </p>
 
               {/* Devise pill list in footer */}
@@ -203,7 +203,7 @@ export default function App() {
             <div className="flex items-center space-x-1 text-slate-500 mt-2 sm:mt-0 font-mono">
               <span>Fait avec</span>
               <Heart className="w-3 h-3 text-red-500 fill-red-500" />
-              <span>pour les familles du Nord-Kivu</span>
+              <span>pour les familles en RDC</span>
             </div>
           </div>
         </div>

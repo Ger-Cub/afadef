@@ -59,7 +59,7 @@ export default function RecentWorks() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="font-display text-3xl sm:text-4xl font-black text-gray-900 tracking-tight"
           >
-            Impact Réel & Projets Concrets à Goma
+            Impact Réel & Projets Concrets en RDC
           </motion.h2>
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
